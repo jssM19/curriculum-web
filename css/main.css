@@ -1,11 +1,11 @@
 :root {
   --theme-color: white;
-  --primary-color: #124f88;
-  --secondary-color: #f7c331;
+  --primary-color: #008cd2;
+  --secondary-color: #00ccf0;
   --text-color-inverse: white;
   --text-color: black;
   --navbar-shallow-color: #e5e5e5;
-  --menu-mobile-background-color: #3a4460;
+  --menu-mobile-background-color: #008cd2;
 }
 
 html {
@@ -35,6 +35,26 @@ a {
 .vertical-padding {
   padding-top: 25px;
   padding-bottom: 25px;
+}
+.container-certificates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 1rem;
+  gap: 1rem;
+}
+
+.td-20 {
+  padding: 15px;
+}
+
+.item {
+  box-shadow: 0 4px 25px rgb(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 150px; /* Ancho del contenedor */
+  height: 150px; /* Alto del contenedor */
+  overflow: hidden;
 }
 
 @media (min-width: 950px) {
